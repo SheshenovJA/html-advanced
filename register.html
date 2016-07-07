@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Html Advanced HomeWork Register Page</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel ="stylesheet" href="css/style.css">
+
+  </head>
+
+<body>
+	<div id="container">
+		<header>
+			<h1>Register:</h1>
+		</header>
+	<div class="clearfix"></div>
+<form method="get" action="login">
+    <label for="email">Email:</label>
+      <input type="email" autocomplete="on" placeholder="Enter Email" required placeholder="Enter Email" autofocus name="email">
+    <label for="password">Password:</label>
+      <input type="password" autocomplete="on" required placeholder="User Password" name="password">
+    <label for="password">Confirm password:</label>
+      <input type="password" autocomplete="on" required placeholder="User Password" name="password">
+    <label for="address">Address:</label>
+      <input type="text" name="address" required minlength="10" placeholder="Country, City">
+    <label for="date">Date of registering: </label>
+      <input type="date" name="date" required>
+    <label for="gender">Gender: </span></label>
+      <select name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+    <label for="age">Age: </label>
+      <input type="number" name="age" required min="18" max="99">
+    <label>Avatar: </label>
+      <input type="file" name="photo" required accept="image/*">
+    <label>Recive promotional emails?</label></br>
+    <label>
+      <input type="radio" name="promotion" value="yes" checked>Yes
+    </label>
+    <label>
+      <input type="radio" name="promotion" value="no">No
+    </label><br/>
+    <label>Say some about yourself:</label>
+       <textarea name="biography" cols="10" rows="5" >
+    </textarea>
+
+    <input type="submit" id="sub-button" name="register" value="Register now!">
+    <input type="reset" id="sub-button" name="reset" value="Reset all">
+
+</form>
+
+    <footer>&copy; Megas 2016</footer>
+	</div>
+</body>
